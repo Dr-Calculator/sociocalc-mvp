@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BradoxSocioCalc - Actuarial Learning Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>BradoxSocioCalc</h1>
+    <p>Empowering Actuarial Students & Communities</p>
+  </header>
+
+  <section id="concepts">
+    <h2>Actuarial Concepts Simplified</h2>
+    <div class="concept">
+      <h3>Probability Basics</h3>
+      <p>Probability measures the likelihood of an event occurring. It ranges from 0 (impossible) to 1 (certain).</p>
+    </div>
+    <div class="concept">
+      <h3>Time Value of Money</h3>
+      <p>Money today is worth more than the same amount in the future due to its earning potential.</p>
+    </div>
+  </section>
+
+  <section id="quiz">
+    <h2>Quick Quiz</h2>
+    <div id="quiz-container"></div>
+    <button id="submit-btn">Submit Answers</button>
+    <p id="result"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<section id="loan">
+  <h2>Loan Repayment Calculator</h2>
+  <label>Loan Amount: <input type="number" id="loanAmount"></label><br>
+  <label>Interest Rate (% per year): <input type="number" id="loanRate"></label><br>
+  <label>Repayment Period (months): <input type="number" id="loanMonths"></label><br>
+  <button onclick="calculateLoan()">Calculate Repayment</button>
+  <p id="loanResult"></p>
+</section>
+
+<section id="savings">
+  <h2>Savings Growth Calculator</h2>
+  <label>Monthly Deposit: <input type="number" id="deposit"></label><br>
+  <label>Interest Rate (% per year): <input type="number" id="savingsRate"></label><br>
+  <label>Duration (months): <input type="number" id="duration"></label><br>
+  <button onclick="calculateSavings()">Calculate Future Value</button>
+  <p id="savingsResult"></p>
+</section>
+<section id="budget">
+  <h2>Budget Tracker</h2>
+  <label>Income: <input type="number" id="income"></label><br>
+  <label>Expenses: <input type="number" id="expenses"></label><br>
+  <button onclick="trackBudget()">Track Budget</button>
+  <p id="budgetResult"></p>
+</section>
+
+<section id="sacco">
+  <h2>SACCO/Chama Ledger</h2>
+  <label>Member Name: <input type="text" id="memberName"></label><br>
+  <label>Transaction Type: 
+    <select id="transactionType">
+      <option value="deposit">Deposit</option>
+      <option value="withdrawal">Withdrawal</option>
+    </select>
+  </label><br>
+  <label>Amount: <input type="number" id="transactionAmount"></label><br>
+  <button onclick="recordTransaction()">Record Transaction</button>
+  <ul id="ledger"></ul>
+</section>
+<section id="mentorship">
+  <h2>Mentorship & Networking</h2>
+  
+  <div id="mentorProfiles">
+    <h3>Available Mentors</h3>
+    <div class="mentor-card">
+      <h4>Mary – Software Development</h4>
+      <p>Passionate about web apps and guiding students in coding.</p>
+      <button onclick="selectMentor('Mary')">Message Mary</button>
+    </div>
+    <div class="mentor-card">
+      <h4>James – Banking & Career Growth</h4>
+      <p>Helps students understand financial systems and career planning.</p>
+      <button onclick="selectMentor('James')">Message James</button>
+    </div>
+  </div>
+
+  <div id="chatBox">
+    <h3>Chat with Mentor</h3>
+    <p id="selectedMentor">No mentor selected yet.</p>
+    <textarea id="messageInput" placeholder="Type your message..."></textarea><br>
+    <button onclick="sendMessage()">Send Message</button>
+    <ul id="messages"></ul>
+  </div>
+</section>
+<section id="financialLiteracy">
+  <h2>Financial Literacy Modules</h2>
+  <div class="module">
+    <h3>Budgeting Basics</h3>
+    <p>Learn how to plan monthly expenses, avoid overspending, and save consistently.</p>
+    <button onclick="showModule('budgeting')">Read More</button>
+  </div>
+  <div class="module">
+    <h3>Smart Saving</h3>
+    <p>Understand compound interest and how small deposits grow into big savings.</p>
+    <button onclick="showModule('saving')">Read More</button>
+  </div>
+  <div class="module">
+    <h3>Debt Management</h3>
+    <p>Learn strategies to repay loans faster and avoid debt traps.</p>
+    <button onclick="showModule('debt')">Read More</button>
+  </div>
+</section>
+
+<section id="disasterPreparedness">
+  <h2>Disaster Preparedness</h2>
+  <p>Emergencies can strike anytime. Use these tips to prepare financially:</p>
+  <ul id="disasterTips"></ul>
+  <button onclick="loadDisasterTips()">Show Preparedness Tips</button>
+</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BradoxSocioCalc</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#concepts">Learning Hub</a></li>
+      <li><a href="#quiz">Quizzes</a></li>
+      <li><a href="#loan">Loan Calculator</a></li>
+      <li><a href="#savings">Savings Calculator</a></li>
+      <li><a href="#budget">Budget Tracker</a></li>
+      <li><a href="#sacco">SACCO Ledger</a></li>
+      <li><a href="#mentorship">Mentorship</a></li>
+      <li><a href="#financialLiteracy">Financial Literacy</a></li>
+      <li><a href="#disasterPreparedness">Disaster Preparedness</a></li>
+    </ul>
+  </nav>
+
+  <!-- Existing sections (Learning Hub, Quiz, Loan, Savings, Budget, SACCO, Mentorship, Literacy, Disaster Preparedness) -->
+  <!-- Keep all the code we built earlier here -->
+  
+  <footer>
+    <p>© 2026 BradoxSocioCalc | Empowering Students & Communities</p>
+  </footer>
+</body>
+</html>

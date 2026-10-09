@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+section {
+  margin: 20px;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #004aad;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #003580;
+}
+section h2 {
+  color: #004aad;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#ledger {
+  list-style-type: none;
+  padding: 0;
+}
+
+#ledger li {
+  background: #f0f0f0;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 4px;
+}
+.mentor-card {
+  background: #e8f0fe;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
+#chatBox {
+  margin-top: 20px;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+#messages li {
+  background: #d1ffd6;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 4px;
+}
+.module {
+  background: #eef6ff;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
+#disasterTips li {
+  background: #ffe8e8;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 4px;
+}
+nav {
+  background-color: #004aad;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 5px 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
