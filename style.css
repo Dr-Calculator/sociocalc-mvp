@@ -295,3 +295,34 @@ nav ul li a:hover {
     display: block;
   }
 }
+/* Hero Section with Background */
+.hero {
+  text-align: center;
+  margin: 0;
+  padding: 100px 20px;
+  background: url('background.jpg') no-repeat center center/cover;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  padding: 12px 25px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background: #2980b9;
+}
