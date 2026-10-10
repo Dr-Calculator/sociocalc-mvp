@@ -150,3 +150,5 @@ function loadDisasterTips() {
     list.appendChild(li);
   });
 }
+alert("Hello Bradox, site is working!");
+alert("Deployment successful!");
