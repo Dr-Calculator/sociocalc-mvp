@@ -34,7 +34,18 @@ This MVP was built to support financial literacy education, actuarial learning, 
 git add README.md
 git commit -m "Added README.md"
 git push
-=======
 # sociocalc-mvp
 SocioCalc MVP — a financial literacy and community empowerment web app with calculators, mentorship, and disaster preparedness modules.
->>>>>>> 028fc596297aeb52700e75acba2b445a4f8ca5c9
+028fc596297aeb52700e75acba2b445a4f8ca5c9
+# SocioCalc MVP
+
+SocioCalc MVP – a financial literacy and community empowerment web app with calculators, mentorship, and disaster preparedness modules.
+
+## 🌟 Features
+- Loan Calculator
+- Savings Calculator
+- Budget Tracker
+- SACCO Ledger
+- Mentorship Platform
+- Financial Literacy Modules
+- Disaster Preparedness Tips
