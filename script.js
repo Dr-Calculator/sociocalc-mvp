@@ -152,3 +152,5 @@ function loadDisasterTips() {
 }
 alert("Hello Bradox, site is working!");
 alert("Deployment successful!");
+// This will show a popup when the page loads
+alert("Hello Bradox! Deployment successful 🎉");
